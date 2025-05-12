@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "seller" ALTER COLUMN "name" DROP NOT NULL,
+ALTER COLUMN "password" DROP NOT NULL,
+ALTER COLUMN "verificationCode" DROP NOT NULL;
