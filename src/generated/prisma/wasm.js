@@ -4,14 +4,14 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 
-const {
+import {
   Decimal,
   objectEnumValues,
   makeStrictEnum,
   Public,
   getRuntime,
   skip
-} = require('./runtime/index-browser.js')
+} from ('./runtime/index-browser.js')
 
 
 const Prisma = {}
